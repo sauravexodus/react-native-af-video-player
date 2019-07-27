@@ -43,7 +43,7 @@ const ControlBar = (props) => {
         isOn={muted}
         iconOff="volume-up"
         iconOn="volume-mute"
-        size={20}
+        size={0}
       />
       <Time time={duration} theme={theme.duration} />
       { !inlineOnly || !hideFullScreenControl &&
